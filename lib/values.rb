@@ -1,7 +1,7 @@
 require 'pry'
 
 def get_the_values(groceries)
-  groceries.values.flatten.min
+  groceries.values.flatten
 end
 
 #This is the groceries hash we'll be passing in to the get_the_values method
